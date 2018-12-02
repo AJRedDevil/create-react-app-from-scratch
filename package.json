@@ -1,0 +1,13 @@
+{
+  "name": "create-react-app-from-scratch",
+  "version": "1.0.0",
+  "description": "Learning the react tools",
+  "main": "index.js",
+  "repository": "git@gitlab.com:AJRedDevil/create-react-app-from-scratch.git",
+  "author": "Ajan Lal Shrestha <ajan.shresh@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  }
+}
