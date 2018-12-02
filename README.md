@@ -31,3 +31,13 @@
 - Creating a public directory
 - Reading environment variables
 - Logger, BodyParser and CookieParser
+
+## Step 5 :: [Using a Module Bundler](https://medium.com/@TeeFouad/create-a-react-application-from-scratch-part-6-using-a-module-bundler-ce0b1837e575)
+
+- Webpack Configuration File
+- Devtool
+- Target
+- Loaders - Babel loader, ESLint loader, Style loader, Image loader
+- Reading environment variables
+- Webpack Dev Server
+- Hot Module Replacement(HMR)
