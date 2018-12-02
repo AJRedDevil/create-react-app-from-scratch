@@ -11,3 +11,11 @@
 ## Step 2 :: [Using ES2015+ Syntax](https://medium.com/@TeeFouad/create-a-react-application-from-scratch-part-3-using-es2015-syntax-4ab0ba7a4254)
 
 - Use Babel to convert ES2015+ syntax to normal JavaScript to ensure cross-browser compatibility
+
+## Step 3 :: [Enforcing a Style Guide](https://medium.com/@TeeFouad/create-a-react-application-from-scratch-part-4-enforcing-a-style-guide-afebd2036938)
+
+- ESLint for code linting
+- AirBnb's Style Guide or other
+- Linting non-standard ES2015+ Syntax -- babel-eslint
+- Adding an npm script for linting
+- Enforce linting before making a commit -- husky
