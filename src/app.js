@@ -2,10 +2,16 @@
  * app.js
  */
 
+import dotenv from 'dotenv';
 import path from 'path';
 import express from 'express';
 
 import routes from './routes';
+
+// use dotenv
+dotenv.config({
+  silent: true,
+});
 
 // Express app setup
 const app = express();
