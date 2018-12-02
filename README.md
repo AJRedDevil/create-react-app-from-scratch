@@ -19,3 +19,15 @@
 - Linting non-standard ES2015+ Syntax -- babel-eslint
 - Adding an npm script for linting
 - Enforce linting before making a commit -- husky
+
+## Step 4 :: [Setting up and Express Server](https://medium.com/@TeeFouad/create-a-react-application-from-scratch-part-5-setting-up-an-express-server-7abd8e89420e)
+
+- The server file
+- Creating the app.js file
+- Creating routes and handling requests
+- Setting up the view engine
+- Handling server errors
+- Handling 404 errors
+- Creating a public directory
+- Reading environment variables
+- Logger, BodyParser and CookieParser
