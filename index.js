@@ -4,12 +4,9 @@
 
 const logSomething = options => ({
   ...options,
-  anotherOption: 'Hello!'
+  anotherOption: 'Hello!',
 });
 
-const options = logSomething({
-  one: '1',
-  two: '2'
-});
+const options = logSomething({ one: '1', two: '2' });
 
 console.log(options);
