@@ -10,8 +10,9 @@
   "scripts": {
     "start": "babel-node ./server/index.js",
     "dev": "nodemon --exec yarn start",
+    "build": "NODE_ENV=production npx env-cmd .env webpack --config ./webpack/config-prod.babel.js",
+    "postinstall": "yarn run build",
     "lint": "eslint . --ext .js,.jsx",
-    "build": "env-cmd .env webpack --config webpack/config.babel.js"
   },
   "devDependencies": {
     "@babel/cli": "7.1.5",
