@@ -41,3 +41,24 @@
 - Reading environment variables
 - Webpack Dev Server
 - Hot Module Replacement(HMR)
+
+## Step 6 :: [Setting up React](https://medium.com/@TeeFouad/create-a-react-application-from-scratch-part-7-setting-up-react-and-best-practices-129b6d589056)
+
+- Package Installation
+- Enabling HMR
+- Tips and Best Practices
+  - Dependency Importvs vs Local Imports
+  * Stateless Functional Components
+  * Start with Presentational Components
+  * Minimize Usage of State
+  * Always Define propTypes and defaultProps
+  * For Class-based Components
+    - Initialize the state afer propTypes, defaulProps and constructor
+    - Pass a function to setState
+    - Use Arrow Functions as Class Properties
+  * Destruct the Props Object
+  * Conditional Rendering - use a ternary expression
+  * The Key Attribute - always remember to place it.
+  * Normalize the state
+  * Use classnames package
+  * One component per file
